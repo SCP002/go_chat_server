@@ -76,7 +76,7 @@ See [releases page](https://github.com/SCP002/go_chat_server/releases).
 5. To build a binary for current OS / architecture into `../build/` folder:
 
     ```sh
-    go build -o ../build/ go_chat_server.go
+    go build -o ../build/ main.go
     ```
 
     Or use convenient cross-compile tool to build binaries for every OS / architecture pair:
