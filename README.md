@@ -56,14 +56,12 @@ See [releases page](https://github.com/SCP002/go_chat_server/releases).
 3. Install dependencies:
 
     ```sh
-    cd src
     go mod tidy
     ```
 
     Or
 
     ```sh
-    cd src
     go get ./...
     ```
 
@@ -82,7 +80,6 @@ See [releases page](https://github.com/SCP002/go_chat_server/releases).
     Or use convenient cross-compile tool to build binaries for every OS / architecture pair:
 
     ```sh
-    cd src
     go get github.com/mitchellh/gox
     go install github.com/mitchellh/gox
     gox -output "../build/{{.Dir}}_{{.OS}}_{{.Arch}}" ./
